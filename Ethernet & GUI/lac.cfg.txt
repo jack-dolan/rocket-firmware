@@ -1,0 +1,71 @@
+cat lac.cfg 
+name	LAC			
+serial	DD
+type	ethernet
+ip      192.168.1.10
+port_cmd 2006
+port_tel 2005			
+baud	1000000			
+cmd	BOARD_RESET			BOARD_RESET		
+cmd	start_stream			start_stream		
+cmd	stop_stream			stop_stream		
+cmd	serial	sn		
+cmd	servos_enable			ser_on		
+cmd	SAFE	SAFE		
+cmd	abort	abort			
+cmd	fwd_direction			fwdir
+cmd	rev_direction			rvdir
+cmd	ten_percent_duty		10pd
+cmd	twenty_five_percent_duty	25pd
+cmd	forty_percent_duty		40pd
+cmd     sixty_percent_duty		60pd
+cmd	start_actuator			start_act
+cmd	stop_actuator			stop_act
+cmd	slow_ramp			slow_ramp
+cmd	fast_ramp			fast_ramp	
+telem	LENC	float	1	100
+telem	LOXT	float	2	100
+telem	de3	float	3	100
+telem	LFUT	float	4	100
+telem	VOXT	float	5	200
+telem	VOXD	float	6	200
+telem	VPUR	float	7	200
+telem	VOXV	float	8	200
+telem	VFUV	float	9	200
+telem	VFST	float	10	200
+telem	VOXM	float	11	200
+telem	VFUR	float	12	200
+telem	sol1_state	float	13	200
+telem	sol2_state	float	14	200
+telem	VGNO	float	15	200
+telem	VGNF	float	16	200
+telem	PENR	float	17	100
+telem	POXB	float	18	100
+telem	POXT	float	19	100
+telem	PFUT	float	20	100
+telem	PENC	float	21	100
+telem	PENO	float	22	100
+telem	PENF	float	23	100
+telem	PGNB	float	24	100
+telem	TOXB	float	25	200
+telem	TOXTU	float	26	200
+telem	TOXTL	float	27	200
+telem	TENR	float	28	200
+telem	TENF	float	29	200
+telem	tc7	float	30	200
+telem	tc8	float	31	200
+telem	tc9	float	32	200
+telem	tc10	float	34	200
+telem	tc11	float	35	200
+telem	tc12	float	36	200
+telem	tc13	float	37	200
+telem	tc14	float	38	200
+telem	tc15	float	39	200
+telem	tc16	float	40	200
+telem	gse_bat_voltage	float	41	200
+telem	gse_temp	float	42	200
+telem	igniter_state	float	43	200
+telem	go_pro_state	float	44	200
+telem	ox_control_state	float	45	200
+telem	fuel_control_state	float	46	200
+telem	fs_arm_state	float	47	20

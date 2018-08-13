@@ -1,0 +1,6 @@
+packet_start    85
+packet_end      127
+ack_start       90
+telem_packet_id 4
+ethernet_packet_id      14
+board   boardcfgs/lac.cfg
